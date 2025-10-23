@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wsimbanaS3.Views.vDos"
+             Title="vDos">
+    <VerticalStackLayout>
+        <Label 
+            Text="VISTA DOS"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="18"/>
+       <!--OBJETO QUE RECIBE EL DATO-->
+        <Label
+            x:Name="lblDato1"
+            TextColor="Red"
+            />
+        <Label
+             x:Name="lblDato2"
+             TextColor="Red"
+             />
+
+    </VerticalStackLayout>
+</ContentPage>
