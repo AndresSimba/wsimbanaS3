@@ -3,6 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="wsimbanaS3.Views.vTres"
              Title="vTres">
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="TextColor" Value="Blue"/>
+        </Style>
+
+        <Style TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="Aqua"/>
+        </Style>
+    </ContentPage.Resources>
+
     <VerticalStackLayout>
         <Label 
             Text="VISTA TRES"

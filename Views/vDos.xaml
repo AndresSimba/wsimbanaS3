@@ -12,10 +12,11 @@
        <!--OBJETO QUE RECIBE EL DATO-->
         <Label
             x:Name="lblDato1"
-            TextColor="Red"
+               Style="{StaticResource labelGlobal}"
             />
         <Label
              x:Name="lblDato2"
+            Style="{StaticResource labelGlobal}"
              TextColor="Red"
              />
 
